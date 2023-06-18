@@ -1,4 +1,33 @@
-h3 {
-	color: darkred;
-	font-size: 44px;
+.container {
+	width: 1365px;
+/*	border: 1px solid white;*/
+	margin: 0 auto;
+}
+header {
+	height: 65px;
+	background: black;
+}
+nav {
+	margin-top: 18px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.circle3 {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 46px;
+}
+.icone-s1 {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 19px;
+}
+.search {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 73px;
+}
+.icone-s2 {
+	display: inline-block;
+	vertical-align: middle;
 }
