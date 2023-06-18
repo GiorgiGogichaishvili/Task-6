@@ -1,6 +1,6 @@
 .container {
 	width: 1365px;
-/*	border: 1px solid white;*/
+	border: 1px solid black;
 	margin: 0 auto;
 }
 header {
@@ -31,3 +31,94 @@ nav {
 	display: inline-block;
 	vertical-align: middle;
 }
+.text-s1 {
+	margin-top: 78px;
+	font-weight: 600;
+	font-size: 16.2392px;
+	line-height: 20px;
+	color: #000000;
+	font-family: 'Inter', sans-serif;
+	margin-bottom: 4px;
+}
+.text-s2 {
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 13px;
+	color: #A4A8B0;
+	font-family: 'Inter', sans-serif;
+}
+.div-s1 {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 320px;
+}
+.div-s2 {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 210px;
+}
+.text-s3 {
+	font-family: 'Gabriela', serif;
+	font-weight: 400;
+	font-size: 44.3478px;
+	line-height: 57px;
+	color: #000000;
+}
+.div-s3 {	
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	animation: mymove 5s infinite;
+	animation-duration: 2s;
+
+}
+.div-s4 {	
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	animation: mymove-s1 4s infinite;
+	animation-duration: 2s;
+}
+@keyframes mymove {
+	from {top: 0px}
+	to {right: 130px}
+}
+@keyframes mymove-s1 {
+	from {top: 20px}
+	to {top: 0px}
+}
+.img-s1 {
+	position: relative;
+	top: -20px;
+
+}
+.img-s2 {
+	position: relative;
+	top: 101px;
+}
+.div-s5 {
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	top: 646px;
+}
+.text-s4 {
+	width: 202px;
+	height: 32px;
+	margin-bottom: 15px;
+	font-weight: 500;
+	font-size: 26.0823px;
+	line-height: 32px;
+	color: #000000;
+	font-family: 'Inter', sans-serif;
+}
+.text-s5 {
+	width: 295px;
+	height: 105px;
+	font-weight: 400;
+	font-size: 12.4865px;
+	line-height: 15px;
+	color: #A4A8B0;
+	font-family: 'Inter', sans-serif;
+}
+
